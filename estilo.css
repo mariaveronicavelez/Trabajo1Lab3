@@ -100,3 +100,29 @@ body{
     top: 15px;
     transition: .5s;
 }
+
+.card:hover .links {
+    right: -50px;
+    border-radius: 0 10px 10px 0;
+}
+
+.card .links a {
+    font-size: 20px;
+    color: #646069;
+}
+
+.card .links a:nth-child(1):hover {
+    color: #0158ca;
+}
+
+.card .links a:nth-child(2):hover {
+    color: #b332c7;
+}
+
+.card .links a:nth-child(3):hover {
+    color: #a51b1b;
+}
+
+.card .links a:nth-child(4):hover {
+    color:#4f0ff0;
+}
