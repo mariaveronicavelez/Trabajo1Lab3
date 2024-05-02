@@ -50,3 +50,31 @@ body{
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
+
+.card .content span {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(to right, #0066A6, #008DE6);
+    transform: rotate(-35deg);
+    top: -50px;
+    left: -100px;
+}
+
+.card .content h4 {
+    font-size: 22px;
+    color: #1a1919;
+    margin-bottom: 5px;
+}
+
+.card .content h6 {
+    font-size: 16px;
+    color: #5e2066;
+}
+
+.card .content p {
+    font-size: 15px;
+    color: #1a161f;
+    margin-top: 10px;
+    padding: 10px;
+}
